@@ -1,0 +1,39 @@
+{
+  "name": "profiler",
+  "version": "0.0.1",
+  "description": "A simple and minimalist template for profile website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/gulp",
+    "build": "./node_modules/.bin/gulp build"
+  },
+  "keywords": [
+    "profile",
+    "site",
+    "profile-site",
+    "minimalist-site",
+    "minimal"
+  ],
+  "author": "Marcos Vinicius de Oliveira Pereira",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-copy": "^1.0.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglifycss": "^1.0.8"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
